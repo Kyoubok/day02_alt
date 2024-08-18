@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Container from './props/Container';
+// import Jsx01 from './basic/Jsx01';
+// import Jsx02 from './basic/Jsx02';
+// import Jsx03 from './basic/Jsx03';
+// import Jsx04 from './basic/Jsx04';
+// import Jsx05 from './basic/Jsx05'; 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Jsx01 /> */}
+      {/* <Jsx02 /> */}
+      {/* <Jsx03 /> */}
+      {/* <Jsx04 /> */}
+      {/* <Jsx05 /> */}
+      <Container />
+    </>
   );
 }
 
